@@ -1,0 +1,8 @@
+## Title: DeathReport
+## APIVersion: 100004
+## SavedVariables: DER_VARS
+
+DeathReport.lua
+
+DeathReport.xml
+bindings.xml
