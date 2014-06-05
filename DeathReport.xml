@@ -1,0 +1,13 @@
+<!----------------------------------------------------------
+	FOUNDRY TACTICAL COMBAT XML
+  ----------------------------------------------------------
+  -->
+<GuiXml>
+    <Controls>
+        <TopLevelControl name="DeathReport" mouseEnabled="false">
+<!--             <OnUpdate>
+				      DER:Update()
+            </OnUpdate> -->
+        </TopLevelControl>
+	</Controls>
+</GuiXml>
