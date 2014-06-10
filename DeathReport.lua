@@ -187,7 +187,7 @@ function DER.Reporting:Post()
   --       * GetDeathRecapHintInfo
   -- http://pastebin.com/urfAS473
   if(DER.Gather.Data) then
-  	local output = "Events: "
+  	local output = "Death Report: "
   	local firstTime = nil;
   	for k, v in pairs(DER.Gather.Data) do
   		if(not firstTime) then
@@ -263,7 +263,7 @@ function DER.OnCombatEvent( eventCode , result , isError , abilityName, abilityG
 		}
 		table.insert(DER.Gather.Data, entry)
 		table.sort( DER.Gather.Data , function(x,y) return x.ms > y.ms end )
-		truncateTable(DER.Gather.Data, 11)
+		truncateTable(DER.Gather.Data, 6)
 	end
 end
 function DER.OnCombatStateChanged( eventCode ,  inCombat)
